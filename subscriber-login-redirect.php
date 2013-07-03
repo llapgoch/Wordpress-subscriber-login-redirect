@@ -30,6 +30,10 @@ if(!session_id()){
 add_filter('login_redirect', 'check_profile_access', 10, 3);
 
 function check_profile_access($redirect_to, $request, $user){
+	if($redirect_to !== admin_url() && $redirect_to !== ''){
+		return $redirect_to;
+	}
+	
 	if(!$user || !isset($user->roles)){
 		return;
 	}
