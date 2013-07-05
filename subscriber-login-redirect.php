@@ -8,7 +8,7 @@ Author: Dave Preece
 Author URI: http://www.scumonline.co.uk
 License: GPL
 
-Copyright YEAR  PLUGIN_AUTHOR_NAME  (email : dangerous@scumonline.co.uk)
+Copyright 2013  David Preece  (email : dangerous@scumonline.co.uk)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
